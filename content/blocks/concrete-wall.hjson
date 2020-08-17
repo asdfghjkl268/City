@@ -1,0 +1,9 @@
+name:"[gray]Бетоная стена"
+description:"Обычная защитная стена."
+type:Wall
+health:400
+size:1
+requirements:[
+concrete/6
+]
+category:defense

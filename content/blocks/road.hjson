@@ -1,0 +1,11 @@
+type: Conveyor
+name: Дорога
+description: "НЕДВИГАЕТСЯ"
+health:50
+requirements:[
+copper/1
+concrete/5
+]
+category: distribution
+speed: 0
+research: titanium-conveyor

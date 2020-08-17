@@ -1,0 +1,12 @@
+name: Маленький контейнер
+description: Может хранить предметы пару предметов
+type: Vault 
+size: 1
+health: 100
+itemCapacity: 75
+requirements: [
+ copper/50
+ titanium/5
+] 
+research: container
+category: effect

@@ -1,0 +1,25 @@
+type:GenericSmelter
+name:"Бетонамешалка"
+description:"Соединяет цемент с водой.\nПроизводит бетон."
+outputItem:concrete/1
+size:1
+hasPower:false
+hasItems:true
+hasLiquid:true
+craftTime:80
+updateEffect:steam
+itemCapacity:10
+consumes:{
+items:{items:[
+cement/2
+]}
+liquid:{
+liquid: water
+amount: 0.1}}
+requirements:[
+copper/60
+lead/50
+graphite/25
+]
+category:crafting
+research:router

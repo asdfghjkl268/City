@@ -1,0 +1,22 @@
+type:GenericSmelter
+name:"Мешалка цемента"
+description:"Соединяет песок с гравием.\nПроизводит цемент."
+outputItem:cement/1
+size:2
+hasPower:true
+hasItems:true
+craftTime:60
+updateEffect:magmasmoke
+itemCapacity:10
+consumes:{
+power:0.5
+items:{items:[
+gravel/1
+sand/2
+]}}
+requirements:[
+copper/50
+lead/35
+]
+category:crafting
+research:router

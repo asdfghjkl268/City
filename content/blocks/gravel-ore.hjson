@@ -1,0 +1,4 @@
+type:OreBlock
+name:"Гравий"
+itemDrop:gravel
+oreDefault:true

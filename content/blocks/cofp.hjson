@@ -1,0 +1,22 @@
+type:GenericSmelter
+name:"Ферма какао "
+description:"Переделывает споровые стручки в какао бобы."
+outputItem:cof/1
+size:2
+hasPower:true
+hasItems:true
+craftTime:56
+updateEffect:steam
+itemCapacity:10
+consumes:{
+power:1.5
+items:{items:[
+spore-pod/1
+]}}
+requirements:[
+copper/30
+lead/25
+graphite/50
+]
+category:crafting
+research:router
